@@ -1,0 +1,207 @@
+:root {
+  --primary-color: #1f242d;
+  --primary-color-dark: #0d1a20;
+  --secondary-color: #fb923c;
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins",sans-serif;
+  background-image: linear-gradient(to right bottom, #1f242d, #0d1a20);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-self: space-around;
+    background-color: rgb(20, 20, 20);
+    color:#fff;
+    padding: 17px;
+}
+nav .list{
+display: flex;
+}
+nav .list p{
+    margin-inline: 11px;
+    margin-top: 8px;
+}
+nav p:hover{
+    color: red;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+}
+nav i{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.main img{
+    width:100%;
+}
+.deal{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.deal button{
+    text-align: center;
+    width: 250px;
+    font-weight: 600px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color:#fff;
+    font-size: 25px;
+    margin-inline: 11px;
+    margin-top: 20px;
+}
+.deal button:hover{
+    cursor: pointer;
+    background:#ee0707;
+    color:#1f242d;
+    box-shadow:0 0 20px #ee0707;
+}
+
+.deal p{
+    margin-top: 33px;
+    font-size: 20px;
+    color: #fff;
+    width: auto;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 44px;
+}
+.pro .pi img{
+    width:250px;
+    height: 240px;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.pi{
+    text-align: center;
+}
+
+.pro .pi h2{
+    text-align: center;
+    width: 250px;
+    font-weight: 600px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color:#fff;
+    font-size: 20px;
+    margin-inline: 11px;
+    margin-top: 20px;
+}
+.pi h2:hover{
+    cursor: pointer;
+    background:#ee0707;
+    color:#1f242d;
+    box-shadow:0 0 20px #ee0707;
+}
+.prq{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.prq .p1 img{
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: auto;
+}
+.prq button{
+    text-align: center;
+    width: 250px;
+    font-weight: 600px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color:#fff;
+    font-size: 25px;
+    margin-inline: 11px;
+    margin-top: 20px;
+}
+.prq button:hover{
+    cursor: pointer;
+    background:#ee0707;
+    color:#1f242d;
+    box-shadow:0 0 20px #ee0707;
+}
+.prq p{
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.per{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.per1 img{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+.per h2{
+    color: #fff;
+    padding-top: 30px;
+    font-weight: 500px;
+    font-size: 26px;
+}
+.per p{
+    color:#fff;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.per button{
+    color: #1f242d;
+    background-color: #FFB800;
+    width:90px;
+    height: auto;
+    font-size: 16px;
+}
+.per button:hover{
+    cursor: pointer;
+    background:#FFB800;
+    color:#fff;
+    box-shadow:0 0 20px #FFB800;	
+}
+
+.social a{ display:inline-flex;
+justify-content:center;
+align-items:center;  
+width: 40px;
+height:40px;
+background:transparent;
+border: 2px solid #FFB800;
+border-radius:40%;
+font-size:20px;
+color:#FFB800;
+text-decoration:none;
+margin: 50px 30px 15px 2px;
+}
+    
+.social a:hover{ background:#FFB800;
+    color:#1f242d;
+    box-shadow:0 0 20px #FFB800;	
+}
